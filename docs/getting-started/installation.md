@@ -1,9 +1,9 @@
 ---
 layout: docs
-title: Build tools
+title: Installation
 description: Learn how to use Bootstrap's included npm scripts to build our documentation, compile source code, run tests, and more.
 group: getting-started
-toc: true
+toc: false
 ---
 
 ## Tooling setup

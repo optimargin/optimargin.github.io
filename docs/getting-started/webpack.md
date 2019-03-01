@@ -3,7 +3,7 @@ layout: docs
 title: Webpack
 description: Learn how to include Bootstrap in your project using Webpack.
 group: getting-started
-toc: true
+toc: false
 ---
 
 ## Installing Bootstrap

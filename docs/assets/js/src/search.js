@@ -10,7 +10,6 @@
   }
 
   var inputElement = document.getElementById('search-input')
-  var siteDocsVersion = inputElement.getAttribute('data-docs-version')
 
   function getOrigin() {
     var location = window.location
@@ -29,13 +28,11 @@
     apiKey: '5990ad008512000bba2cf951ccf0332f',
     indexName: 'bootstrap',
     inputSelector: '#search-input',
-    algoliaOptions: {
-      facetFilters: ['version:' + siteDocsVersion]
-    },
+    algoliaOptions: {},
     transformData: function (hits) {
       return hits.map(function (hit) {
         var siteurl = getOrigin()
-        var urlRE = /^https?:\/\/getbootstrap\.com/
+        var urlRE = /^https?:\/\/docs\.optimargin\.com/
 
         // When in production, return the result as is,
         // otherwise remove our url from it.

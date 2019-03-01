@@ -4,7 +4,7 @@ title: Reboot
 description: Reboot, a collection of element-specific CSS changes in a single file, kickstart Bootstrap to provide an elegant, consistent, and simple baseline to build upon.
 group: content
 redirect_from: "/docs/4.3/content/"
-toc: true
+toc: false
 ---
 
 ## Approach

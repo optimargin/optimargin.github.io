@@ -6,7 +6,7 @@ group: components
 redirect_from:
   - "/components/"
   - "/docs/4.3/components/"
-toc: true
+toc: false
 ---
 
 ## Examples

@@ -3,7 +3,7 @@ layout: docs
 title: Contents
 description: Discover what's included in Bootstrap, including our precompiled and source code flavors.
 group: getting-started
-toc: true
+toc: false
 ---
 
 ## Precompiled Bootstrap
