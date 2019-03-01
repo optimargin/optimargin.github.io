@@ -1,25 +1,24 @@
 - title: Getting started
   pages:
     - title: Introduction
-    - title: Download
-    - title: Installation
-    - title: Options
-    - title: JavaScript
-    - title: Theming
-    - title: Webpack
-    - title: Accessibility
+    - {title: Setting up a secure server, alias: secure-server}
+    - {title: Connecting to your FCMs, alias: fcm-connection}
+    - {title: Installing OptiMargin, alias: installation}
+    - {title: Initial configuration, alias: configuration}
+
+- title: Day-to-day
+  pages:
+    - {title: Understanding your daily email, alias: daily-email}
+    - {title: Causes for IM discrepancy, alias: im-discrepancy}
+
+- title: Chatbot
+  pages:
+    - title: Overview
+
+- title: CFO Dashboard
+  pages:
+    - title: Overview
 
 - title: Advanced Configuration
   pages:
     - title: Overview
-    - title: Grid
-    - title: Utilities for layout
-
-- title: Usage
-  pages:
-    - title: Reboot
-    - title: Typography
-    - title: Code
-    - title: Images
-    - title: Tables
-    - title: Figures

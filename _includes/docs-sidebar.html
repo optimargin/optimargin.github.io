@@ -27,9 +27,10 @@
       <ul class="nav bd-sidenav">
         {%- for doc in group.pages -%}
           {%- assign doc_slug = doc.title | slugify -%}
+          {%- assign doc_slug_alias = doc.alias | slugify -%}
           {%- assign active = nil -%}
 
-          {%- if page.group == group_slug and page_slug == doc_slug -%}
+          {%- if page.group == group_slug and (page_slug == doc_slug or page_slug == doc_slug_alias) -%}
             {%- assign active = 'active bd-sidenav-active' -%}
           {%- endif -%}
 
