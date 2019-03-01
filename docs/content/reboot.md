@@ -159,7 +159,7 @@ The `<pre>` element is reset to remove its `margin-top` and use `rem` units for 
 
 ## Tables
 
-Tables are slightly adjusted to style `<caption>`s, collapse borders, and ensure consistent `text-align` throughout. Additional changes for borders, padding, and more come with [the `.table` class]({{ site.baseurl }}/docs/{{ site.docs_version }}/content/tables/).
+Tables are slightly adjusted to style `<caption>`s, collapse borders, and ensure consistent `text-align` throughout. Additional changes for borders, padding, and more come with [the `.table` class]({{ site.baseurl }}/docs/content/tables/).
 
 <div class="bd-example">
   <table>
@@ -364,4 +364,4 @@ HTML5 adds [a new global attribute named `[hidden]`](https://developer.mozilla.o
 {% endcapture %}
 {% include callout.html content=callout type="warning" %}
 
-To merely toggle the visibility of an element, meaning its `display` is not modified and the element can still affect the flow of the document, use [the `.invisible` class]({{ site.baseurl }}/docs/{{ site.docs_version }}/utilities/visibility/) instead.
+To merely toggle the visibility of an element, meaning its `display` is not modified and the element can still affect the flow of the document, use [the `.invisible` class]({{ site.baseurl }}/docs/utilities/visibility/) instead.
