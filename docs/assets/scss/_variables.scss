@@ -1,5 +1,5 @@
 // Local docs variables
-$bd-purple:        #1d5f4a !default;
+$bd-purple:        #563d7c !default;
 $bd-purple-bright: lighten(saturate($bd-purple, 5%), 15%) !default;
 $bd-purple-light:  lighten(saturate($bd-purple, 5%), 45%) !default;
 $bd-dark:          #2a2730 !default;
@@ -7,6 +7,10 @@ $bd-download:      #ffe484 !default;
 $bd-info:          #5bc0de !default;
 $bd-warning:       #f0ad4e !default;
 $bd-danger:        #d9534f !default;
+
+$om-green:        #1d5f4a !default;
+$om-green-bright: lighten(saturate($om-green, 5%), 15%) !default;
+$om-green-light:  lighten(saturate($om-green, 5%), 45%) !default;
 
 // Enable responsive font sizes for font sizes defined in the docs
 // The weird if test is made as a workaround to prevent a false fusv error.

@@ -8,13 +8,13 @@
   width: 100%;
   margin-bottom: 1rem;
   overflow: hidden;
-  color: $bd-purple;
+  color: $om-green;
   background-color: #f9f9f9;
   @include border-radius;
 
   .inverse {
     color: $white;
-    background-color: $bd-purple;
+    background-color: $om-green;
   }
 }
 
@@ -66,6 +66,15 @@
     background-color: $bd-purple-light;
   }
   .bd-purple-lighter {
+    background-color: #e5e1ea;
+  }
+  .om-green {
+    background-color: $om-green;
+  }
+  .om-green-light {
+    background-color: $om-green-light;
+  }
+  .om-green-lighter {
     background-color: #e5e1ea;
   }
   .bd-gray {
