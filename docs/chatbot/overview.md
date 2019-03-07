@@ -9,4 +9,4 @@ redirect_from:
 toc: false
 ---
 
-Coming soon.
+Integration to ICE Chat for real-time scenario analysis coming Q2 19.

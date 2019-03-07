@@ -11,4 +11,6 @@ redirect_from:
 toc: false
 ---
 
-Coming soon.
+Receive a daily email with your top recommendations and changes from the previous day.
+
+More details coming soon...
