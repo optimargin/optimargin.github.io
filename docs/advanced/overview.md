@@ -13,4 +13,15 @@ redirect_from:
 toc: false
 ---
 
-Coming soon.
+To access configurations, run `Open OptiMargin UI` from the Start Menu, or open a browser to `http://localhost:8080`, and click `settings`.
+
+Click `show advanced settings...` to see all the available settings.
+
+### Simulations settings
+
+| setting name | description | valid values | default |
+|----------------------------|----------------------------------------------------------------------------------------------------------------|-----------------|----------|
+| channels | number of parallel channels used to run app. If `auto`, a value is calculated based on the computer's cpus/RAM | `auto`, integer | `auto` |
+| run exchange switches | include possible recommendations: buy a fungible contract on one exchange and sell in the other | Y/N | Y |
+| run fcm transfers | include possible recommendations: transfer a contract from one FCM account to another | Y/N | Y |
+| run comparison vs previous | gives an analysis of the changes in margin from the previous day | Y/N | Y |
