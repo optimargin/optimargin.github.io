@@ -9,7 +9,7 @@
 - title: Day-to-day
   pages:
     - {title: Understanding your daily email, alias: daily-email}
-    - {title: Causes for IM discrepancy, alias: im-discrepancy}
+    #- {title: Causes for IM discrepancy, alias: im-discrepancy}
 
 - title: Chatbot
   pages:

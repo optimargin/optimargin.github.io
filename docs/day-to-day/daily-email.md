@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Understanding your daily email
-description: I'll have a coffee with that.
+description: Coffee not included.
 group: day-to-day
 redirect_from:
   - "/day-to-day/"
@@ -11,4 +11,4 @@ redirect_from:
 toc: false
 ---
 
-Good morning.
+Coming soon.

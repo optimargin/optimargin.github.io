@@ -9,4 +9,4 @@ redirect_from:
 toc: false
 ---
 
-ICE Chat integration coming soon.
+Coming soon.

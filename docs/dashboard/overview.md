@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Overview
-description: Show me the data.
+description: Margin breakdown and more.
 group: cfo-dashboard
 redirect_from:
   - "/docs/dashboard/"
@@ -13,4 +13,4 @@ redirect_from:
 toc: false
 ---
 
-A detailed UI coming soon.
+Coming soon.

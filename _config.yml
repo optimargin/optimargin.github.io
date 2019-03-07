@@ -39,6 +39,7 @@ opencollective:       "https://opencollective.com/bootstrap"
 blog:                 "https://blog.getbootstrap.com"
 expo:                 "https://expo.getbootstrap.com"
 themes:               "https://themes.getbootstrap.com"
+help_email:           "rudy@optimargin.com"
 
 download:
   dist:             "https://optimargin.com/install"
