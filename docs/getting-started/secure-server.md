@@ -21,7 +21,7 @@ A more powerful server will deliver your results much faster.
 
 | minimum | recommended |
 |:-----------------:|:-------------------:|
-| 4 cores, 8 GB RAM | 16 cores, 32 GB RAM |
+| 2 cores, 4 GB RAM | 8 cores, 16 GB RAM |
 
 {% endcapture %}
 {{ markdown | markdownify }}

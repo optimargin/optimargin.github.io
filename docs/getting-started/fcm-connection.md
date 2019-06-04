@@ -37,6 +37,7 @@ The file formats for the following FCMs are currently supported for automatic pa
 | ABN              |
 | BNP              |
 | Citi             |
+| ED&F             |
 | Societe Generale |
 
 {% endcapture %}
