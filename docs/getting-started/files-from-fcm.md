@@ -7,29 +7,31 @@ group: getting-started
 
 There are 2 files that you need to fetch from your FCM every day.
 
-### 1. Position File
+#### 1. Position File
 
 This is a snapshot of the positions in your portfolio. It should include for each position:
 
 <div class="half-table">
 {% capture markdown %}
 
-| exchange (CME, ICE, NDQ, etc) |
-| product code |
-| contract month (or day) |
-| quantity |
-| type (future, call, put, etc) |
-| strike (if applicable) |
+| Columns                         |
+|:-------------------------------:|
+| exchange (CME, ICE, NDQ, etc)   |
+| product code                    |
+| contract month (or day)         |
+| quantity                        |
+| type (future, call, put, etc)   |
+| strike (if applicable)          |
 
 {% endcapture %}
 {{ markdown | markdownify }}
 </div>
 
-### 2. IM File
+#### 2. IM File
 
 Any file that includes the **total amount of margin** being currently charged by your FCM.
 
-### File formats
+## File formats
 
 The file formats for the following FCMs are currently supported for automatic parsing:
 <div class="half-table">
