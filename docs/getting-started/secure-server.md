@@ -20,7 +20,7 @@ A more powerful server will deliver your results much faster.
 {% capture markdown %}
 
 | minimum | recommended for small portfolios | recommended for large portfolios |
-|:-----------------:|:-------------------:|:-------------------:|
+|:---------------------:|:-----------------------:|:-----------------------:|
 | 2 cores, 4 GB RAM | 8 cores, 16 GB RAM, SSD | 32 cores, 64 GB RAM, SSD |
 
 {% endcapture %}

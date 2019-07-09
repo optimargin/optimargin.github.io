@@ -22,26 +22,8 @@ Setting up an FTP connection to your FCM is straight-forward and should take app
 - Position files: lists your current cumulative positions
 - IM files: lists how much money you are currently being charged in maintenance margin.
 
+[Here]({{ site.baseurl }}/docs/getting-started/fcm-files/) are more details about the kinds of files you need from each FCM.
+
 ### Fetching files
 
 Set your script to routinely download new files from your FCMs. Make sure to check for new files before a scheduled full simulation run (see [initial configuration]({{ site.baseurl }}/docs/getting-started/configuration/)).
-
-### File formats
-
-The file formats for the following FCMs are currently supported for automatic parsing:
-<div class="half-table">
-{% capture markdown %}
-
-| FCM              |
-|:----------------:|
-| ABN              |
-| BNP              |
-| Citi             |
-| ED&F             |
-| Societe Generale |
-
-{% endcapture %}
-{{ markdown | markdownify }}
-</div>
-
-If your FCM is not shown, please send example files to [{{ site.help_email }}](mailto: {{ site.help_email }}) and we will quickly add support for it. The position/IM sample files can either old files or position/IM files with redacted information.
