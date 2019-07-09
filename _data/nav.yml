@@ -3,7 +3,7 @@
     - title: Introduction
     - {title: Setting up a secure server, alias: secure-server}
     - {title: Connecting to your FCMs, alias: fcm-connection}
-    - {title: Files from your FCMs, alias: fcm-files}
+    - {title: Files from your FCMs, alias: files-from-fcm}
     - {title: Installing OptiMargin, alias: installation}
     - {title: Initial configuration, alias: configuration}
 

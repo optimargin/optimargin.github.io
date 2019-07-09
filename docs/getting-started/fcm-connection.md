@@ -22,7 +22,7 @@ Setting up an FTP connection to your FCM is straight-forward and should take app
 - Position files: lists your current cumulative positions
 - IM files: lists how much money you are currently being charged in maintenance margin.
 
-[Here]({{ site.baseurl }}/docs/getting-started/fcm-files/) are more details about the kinds of files you need from each FCM.
+[Here]({{ site.baseurl }}/docs/getting-started/files-from-fcm/) are more details about the kinds of files you need from each FCM.
 
 ### Fetching files
 
