@@ -11,6 +11,8 @@ redirect_from:
 
 To install OptiMargin, just download and run the [installer](https://optimargin.com/uploads/setup.exe).
 
+*optional:* verify the checksum (MD5) of `setup.exe`: `943976a2b61eb21fa29b0a084658383a`.
+
 By default, the OptiMargin App sends error logs (with absolutely **no** user data) to our IT team in order to more quickly identify and resolve potential problems. If you would rather disable this feature and have no outgoing logs, click `Advanced` during the installation process and uncheck `Automatically send diagnostic error logs`.
 
 After installation, OptiMargin will run automatically.
