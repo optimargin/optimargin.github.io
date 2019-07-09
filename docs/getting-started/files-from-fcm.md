@@ -49,4 +49,4 @@ The file formats for the following FCMs are currently supported for automatic pa
 {{ markdown | markdownify }}
 </div>
 
-**If your FCM is not shown**, please send example files to [{{ site.help_email }}](mailto: {{ site.help_email }}) and we will quickly add support for it. The position/IM sample files can either old files or position/IM files with redacted information.
+**If your FCM is not shown**, please send example files to [{{ site.help_email }}](mailto: {{ site.help_email }}) and we will quickly add support for it. The position/IM sample files can be either old files or position/IM files with redacted information.
