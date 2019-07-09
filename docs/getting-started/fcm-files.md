@@ -4,7 +4,6 @@ title: Files from your FCMs
 description: What files do I need?
 group: getting-started
 redirect_from:
-  - "/docs/getting-started/fcm-files/"
   - "/getting-started/fcm-files/"
 ---
 
