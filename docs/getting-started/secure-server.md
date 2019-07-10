@@ -12,7 +12,7 @@ redirect_from:
 Let's set up a secure server that only **you** have access to.
 
 ### Server Specs
-We recommend using either Windows Server 2016/2019 (desktop experience) or Windows 10.
+We recommend using either Windows Server 2016/2019 (desktop experience) or Windows 10 and have at least **30 GB of free space** available.
 
 A more powerful server will deliver your results much faster.
 
