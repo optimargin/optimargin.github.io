@@ -3,6 +3,9 @@ layout: docs
 title: Files from your FCMs
 description: What files do I need?
 group: getting-started
+redirect_from:
+  - "/docs/getting-started/files-from-your-fcms/"
+  - "/getting-started/files-from-your-fcms/"
 ---
 
 There are 2 files that you need to fetch from your FCM every day.
