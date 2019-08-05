@@ -27,3 +27,21 @@ Setting up an FTP connection to your FCM is straight-forward and should take app
 ### Fetching files
 
 Set your script to routinely download new files from your FCMs. Make sure to check for new files before a scheduled full simulation run (see [initial configuration]({{ site.baseurl }}/docs/getting-started/configuration/)).
+
+### Using shared drives
+
+Since OptiMargin uses the LocalSystem account, if you use shared drives you might have to mount them in a way that is accessible to the LocalSystem.
+<details>
+<summary class="text-primary mb-3">See how</summary>
+{% capture markdown %}
+- download the [PSTools Suite](https://docs.microsoft.com/en-us/sysinternals/downloads/pstools) from Microsoft
+- extract the folder
+- search for the `Command Prompt` on the Windows menu, right click, and select `Run as administrator`
+- change the directory to the folder you just downloaded and extracted
+- run the command `psexec -i -s cmd.exe`. An new command window will pop up
+- in the new window, run the command `net use * &lt;UNC PATH&gt; /persistent:yes`, replacing `&lt;UNC PATH&gt;` with your UNC path. If you use a username/password, use them like this: `net use * &lt;UNC PATH&gt; /user:&lt;username&gt; &lt;password&gt; /persistent:yes`
+- take a note of the Drive letter assigned (for example, "Drive Z: is now connected...")
+- now you can use this Drive letter in the OptiMargin App
+{% endcapture %}
+{{ markdown | markdownify }}
+</details>
