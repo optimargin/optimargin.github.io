@@ -39,7 +39,7 @@ Since OptiMargin uses the LocalSystem account, if you use shared drives you migh
 - search for the `Command Prompt` on the Windows menu, right click, and select `Run as administrator`
 - change the directory to the folder you just downloaded and extracted
 - run the command `psexec -i -s cmd.exe`. An new command window will pop up
-- in the new window, run the command `net use * &lt;UNC PATH&gt; /persistent:yes`, replacing `&lt;UNC PATH&gt;` with your UNC path. If you use a username/password, use them like this: `net use * &lt;UNC PATH&gt; /user:&lt;username&gt; &lt;password&gt; /persistent:yes`
+- in the new window, run the command `net use * <UNC PATH> /persistent:yes`, replacing `<UNC PATH>` with your UNC path. If you use a username/password, use them like this: `net use * <UNC PATH> /user:<username> <password> /persistent:yes`
 - take a note of the Drive letter assigned (for example, "Drive Z: is now connected...")
 - now you can use this Drive letter in the OptiMargin App
 {% endcapture %}
