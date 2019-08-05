@@ -6,6 +6,7 @@
     - {title: Files from your FCMs, alias: files-from-fcm}
     - {title: Installing OptiMargin, alias: installation}
     - {title: Initial configuration, alias: configuration}
+    - {title: Internet access}
 
 - title: Day-to-day
   pages:
