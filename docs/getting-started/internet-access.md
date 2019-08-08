@@ -7,11 +7,12 @@ group: getting-started
 
 This is how OptiMargin App uses the internet.
 
-### Downloading Data
-- theice.com - risk array data *(https)*
-- cmegroup.com - risk array data *(https and ftp)*
-- quandl.com - get market data, such as Treasury rates *(https)*
-- api.optimargin.com - market data for switches *(https)*
+### Receiving Data
+- ftp://ftp.cmegroup.com - risk array data
+- https://theice.com - risk array data
+- https://quandl.com - get market data, such as Treasury rates
+- https://api.optimargin.com - market data for switches
 
-### Uploading Data
-- *OPTIONAL* api.optimargin.com - send error logs *(https)*
+### Sending Data
+- *OPTIONAL* https://api.optimargin.com - send error logs
+- *OPTIONAL* https://mandrillapp.com/api - send the daily emails (this can be replaced by your internal mail server)
