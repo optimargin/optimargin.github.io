@@ -15,4 +15,4 @@ This is how OptiMargin App uses the internet.
 
 ### Sending Data
 - *OPTIONAL* https://api.optimargin.com - send error logs
-- *OPTIONAL* https://mandrillapp.com/api - send the daily emails (this can be replaced by your internal mail server)
+- *OPTIONAL* https://mandrillapp.com/api - send the daily emails (you can use your internal mail server instead)
