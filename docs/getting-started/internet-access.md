@@ -11,7 +11,7 @@ This is how OptiMargin App uses the internet.
 - ftp://ftp.cmegroup.com - risk array data
 - https://theice.com - risk array data
 - https://quandl.com - get market data, such as Treasury rates
-- https://api.optimargin.com - market data for switches
+- https://api.optimargin.com - software updates and market data for switches
 
 ### Sending Data
 - *OPTIONAL* https://api.optimargin.com - send error logs
