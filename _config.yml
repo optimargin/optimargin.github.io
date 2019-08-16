@@ -40,9 +40,8 @@ blog:                 "https://blog.getbootstrap.com"
 expo:                 "https://expo.getbootstrap.com"
 themes:               "https://themes.getbootstrap.com"
 help_email:           "support@optimargin.com"
-
-download:
-  dist:             "https://optimargin.com/install"
+download_link:        "https://optimargin.com/uploads/setup.exe"
+download_hash:        "89c69ea2a7f73bf419df79eb257744f1"
 
 cdn:
   # See https://www.srihash.org for info on how to generate the hashes
