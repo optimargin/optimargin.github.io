@@ -32,7 +32,7 @@ Set your script to routinely download new files from your FCMs. Make sure to che
 
 Since OptiMargin is installed as a service, it might not have the required permissions to access files on a shared network drive.
 
-if you have your FCM data in shared drives there are a few solutions available:
+If you have your FCM data in shared drives there are a few solutions available:
 
 1) Monitor and ensure that OptiMargin UI is open and constantly running on your server.
 
