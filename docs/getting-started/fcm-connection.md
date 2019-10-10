@@ -18,7 +18,7 @@ This whole process consists of **requesting an FTP connection** with your FCM(s)
 
 ### Connection
 
-Setting up an FTP connection to your FCM is straight-forward and should take approximately one week (depending on your FCM). You should request two kinds of files in either *csv* or *xls(x)* format (PDF is also supported, but not recommended):
+Setting up an FTP connection to your FCM is straight-forward and should take approximately one week (depending on your FCM). You should request two kinds of files in either *csv* or *xls(x)* format:
 - Position files: lists your current cumulative positions
 - IM files: lists how much money you are currently being charged in maintenance margin.
 
