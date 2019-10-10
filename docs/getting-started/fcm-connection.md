@@ -40,6 +40,8 @@ _or_
 
 2) Set up a script to automatically push the required files to your server every day.
 
+{%- comment -%}
 _or_
 
 3) Work with the OptiMargin Team to create a user account with the required permissions. 
+{%- endcomment -%}
