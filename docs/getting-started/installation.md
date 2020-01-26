@@ -11,6 +11,10 @@ redirect_from:
 
 To install OptiMargin, just download and run the [installer]({{ site.download_link }}).
 
+If you are using Internet Explorer, you might need to add these to your `trusted sites` (Internet Options -> Security -> Trusted Sites -> Sites -> Add):
+- https://optimargin.com
+- https://api.optimargin.com
+
 *optional:* verify the checksum (MD5) of *setup.exe*: `{{ site.download_hash }}`.
 
 By default, the OptiMargin App sends error logs (with absolutely **no** user data) to our IT team in order to more quickly identify and resolve potential problems. If you would rather disable this feature and have no outgoing logs, click `Advanced` during the installation process and uncheck `Automatically send diagnostic error logs`.
