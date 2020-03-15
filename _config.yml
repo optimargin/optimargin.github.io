@@ -41,7 +41,7 @@ expo:                 "https://expo.getbootstrap.com"
 themes:               "https://themes.getbootstrap.com"
 help_email:           "support@optimargin.com"
 download_link:        "https://optimargin.com/uploads/setup.exe"
-download_hash:        "1e7c5e7a05e4f3f32e81d4b73bba2b19"
+download_hash:        "45a5f1cd02d46d501f43ff49383f77c6"
 
 cdn:
   # See https://www.srihash.org for info on how to generate the hashes
